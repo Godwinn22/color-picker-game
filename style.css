@@ -94,7 +94,7 @@ button {
     font-size: 20px;
     margin-left: 40px;
     border: none;
-    text-transform: lowercase;
+    text-transform: capitalize;
     outline: none;
     color: white;
     background: -webkit-linear-gradient(left,rgba(1, 18, 36, 0.921),rgba(15, 110, 211, 0.921));
@@ -153,6 +153,7 @@ button {
         padding: 10px;
         font-size: 20px;
         margin-left: -4px;
+        text-transform: capitalize;
         border: none;
         outline: none;
         color: white;
@@ -231,6 +232,7 @@ button {
         padding: 10px 0px;
         font-size: 20px;
         margin-left: 0px;
+        text-transform: capitalize;
         border: none;
         outline: none;
         color: white;
@@ -303,6 +305,7 @@ button {
         width: 70%;
         font-size: 20px;
         margin-left: 0px;
+        text-transform: capitalize;
         border: none;
         outline: none;
         color: white;
@@ -418,6 +421,7 @@ button {
     .text {
         text-align: center;
         padding: 10px;
+        text-transform: capitalize;
         font-size: 20px;
         margin-left: 40px;
         border: none;
@@ -539,6 +543,7 @@ button {
         text-align: center;
         padding: 10px;
         font-size: 20px;
+        text-transform: capitalize;
         margin-left: 10px;
         border: none;
         outline: none;
@@ -546,4 +551,3 @@ button {
         background: -webkit-linear-gradient(left,rgba(1, 18, 36, 0.921),rgba(15, 110, 211, 0.921));
     }
 }
-
