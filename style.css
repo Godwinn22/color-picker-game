@@ -96,6 +96,7 @@ button {
     border: none;
     outline: none;
     color: white;
+    text-transform: lowercase;
     background: -webkit-linear-gradient(left,rgba(1, 18, 36, 0.921),rgba(15, 110, 211, 0.921));
 }
 @media screen and (max-width:1180px){
