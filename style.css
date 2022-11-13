@@ -462,7 +462,7 @@ button {
         border: none;
         box-shadow: 0px 0px 10px 2px black;
         white-space: nowrap;
-        margin-left: 18px;
+        margin-left: 12spx;
         padding: 0px 50px;
     }
     .pre {
