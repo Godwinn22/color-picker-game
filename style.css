@@ -432,7 +432,7 @@ button {
     }
     .games{
         position: absolute;
-        top: 390px;
+        top: 370px;
         width: 100%;
         height: auto;
         margin-left: 0px;
@@ -442,8 +442,9 @@ button {
     }
     form {
         padding: 0px 0px;
+        width:100%;
         margin-top: 0px;
-        margin-left: 20px;
+        margin-left: 0px;
         display:grid;
         column-gap: 40px;
         grid-template-columns: 1fr 1fr;
@@ -456,8 +457,7 @@ button {
     }
     .guess{
         position: absolute;
-        top: 700px;
-        border-radius: 30px;
+        top: 670px;
         width: 100%;
         height: auto;
         border: none;
