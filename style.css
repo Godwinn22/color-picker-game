@@ -437,6 +437,7 @@ button {
         height: auto;
         margin-left: 18px;
         border: none;
+        padding:0px 40px;
         box-shadow: 0px 0px 10px 2px black;
     }
     form {
@@ -463,7 +464,7 @@ button {
         box-shadow: 0px 0px 10px 2px black;
         white-space: nowrap;
         margin-left: 12px;
-        padding: 0px 48px;
+        padding: 0px 40px;
     }
     .pre {
         padding: 20px;
@@ -479,7 +480,7 @@ button {
         white-space: pre;
         font-size: 18px;
         border: none;
-        padding:0px -1px;
+        padding:0px 40px;
         box-shadow: 0px 0px 10px 2px black;
     }
     .how h2 {
