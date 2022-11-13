@@ -18,7 +18,7 @@
                 score.innerHTML = counter;
             } else {
                 alert ("Your guess was Wrong!😥✖");
-                body.style.backgroundColor = "red";
+                body.style.backgroundColor = "white";
                 myText.value = "";
                 score.innerHTML = counter;
             }
