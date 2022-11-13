@@ -432,22 +432,23 @@ button {
     }
     .games{
         position: absolute;
-        top: 370px;
+        top: 280px;
         width: 100%;
         height: auto;
         margin-left: 0px;
+        border-radius: 30px;
         border: none;
-        padding:0px 30px;
+        padding:0px 40px;
         box-shadow: 0px 0px 10px 2px black;
     }
     form {
         padding: 0px 0px;
         width:100%;
         margin-top: 0px;
-        margin-left: 0px;
+        margin-left: 30px;
         display:grid;
-        column-gap: 40px;
-        grid-template-columns: 1fr 1fr;
+        column-gap: 80px;
+        grid-template-columns: 200px 200px;
         grid-template-rows: 250px;
     }
     .game,label {
@@ -457,7 +458,7 @@ button {
     }
     .guess{
         position: absolute;
-        top: 670px;
+        top: 540px;
         width: 100%;
         height: auto;
         border: none;
@@ -471,12 +472,13 @@ button {
     }
     .how{
         position: absolute;
-        top: 30px;
+        top: 10px;
         width:100%;
         height: auto;
         text-align: center;
         margin-left: 0px;
         margin-right: 0px;
+        border-radius: 30px;
         white-space: pre;
         font-size: 18px;
         border: none;
