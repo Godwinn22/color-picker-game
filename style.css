@@ -426,3 +426,119 @@ button {
     }
 }
 
+@media screen and (max-width:500px) {
+    body {
+        /* background: linear-gradient(to right,rgb(223, 7, 7), rgb(12, 157, 14));; */
+    }
+    .container {
+        position: relative;
+        display: block;
+        width: auto;
+        height: auto;
+        border: none;
+    }
+    .games{
+        position: absolute;
+        top: 500px;
+        width: auto;
+        height: 320px;
+        margin-left: 40px;
+        border: none;
+        box-shadow: 0px 0px 10px 2px black;
+    }
+    form {
+        margin-top: -30px;
+        margin-left: 55px;
+        display:grid;
+        column-gap: 30px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 200px;
+    }
+    .game,label {
+        font-size: 17.3px;
+        font-weight: 800;
+        margin-top: 25px;
+    }
+    .guess{
+        padding: 10px 50px;
+        position: absolute;
+        top: 865px;
+        display: flex;
+        border-radius: 30px;
+        width: auto;
+        height: auto;
+        margin-left: 40px;
+        margin-top: 0px;
+        border: none;
+        box-shadow: 0px 0px 10px 2px black;
+    }
+    .how{
+        position: absolute;
+        top: 30px;
+        width: auto;
+        height: auto;
+        text-align: center;
+        margin-left: 40px;
+        margin-right: 0px;
+        white-space: pre;
+        font-size: 30px;
+        border: none;
+        box-shadow: 0px 0px 10px 2px black;
+    }
+    .how h2 {
+        margin-top: 30px;
+        font-size: 23px;
+    }
+    .how h3{
+        margin-top: -0px;
+        font-size: 23px;
+    }
+    .color {
+        font-size: 23px;
+        margin-top: 0px;
+    }
+    ol {
+        list-style: none;
+    }
+    .how li{
+        list-style: none;
+        padding: 0px 90px;
+        margin-top: -30px;
+        font-size: 23px;
+    }
+    span {
+        font-size: 30px;
+    }
+    .score {
+        font-size: 50px;
+        padding: 15px;
+    }
+    button {
+        color: ghostwhite;
+        font-size: 15px;
+        margin-top: 20px;
+        margin-left: 10px;
+        padding: 10px 30px;
+        border-radius: 10px;
+        outline: none;
+        border: none;
+        background: -webkit-linear-gradient(right, rgba(1, 18, 36, 0.921),rgba(15, 110, 211, 0.921));
+    }
+    .none {
+        display: block;
+        font-size: 23px;
+    }
+    .guess li {
+        font-size: 25px;
+    }
+    .text {
+        text-align: center;
+        padding: 10px;
+        font-size: 20px;
+        margin-left: 10px;
+        border: none;
+        outline: none;
+        color: white;
+        background: -webkit-linear-gradient(left,rgba(1, 18, 36, 0.921),rgba(15, 110, 211, 0.921));
+    }
+}
