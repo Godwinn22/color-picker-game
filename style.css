@@ -3,7 +3,9 @@
     padding: 0;
 }
 body {
-    /* background: linear-gradient(to right,rgb(223, 7, 7), rgb(12, 157, 14));; */
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to right,rgb(223, 7, 7), rgb(12, 157, 14));
 }
 .container {
     display: flex;
@@ -85,6 +87,9 @@ button {
 .none {
     font-size: 26px;
 }
+.list {
+    list-style: none;
+}
 .guess li {
     font-size: 25px;
 }
@@ -94,15 +99,12 @@ button {
     font-size: 20px;
     margin-left: 40px;
     border: none;
-    text-transform: capitalize;
+    text-transform: lowercase;
     outline: none;
     color: white;
     background: -webkit-linear-gradient(left,rgba(1, 18, 36, 0.921),rgba(15, 110, 211, 0.921));
 }
 @media screen and (max-width:1180px){
-    body {
-        /* background: linear-gradient(to right,rgb(223, 7, 7), rgb(12, 157, 14));; */
-    }
     .games{
         width: 30%;
         height: 85vh;
@@ -153,7 +155,7 @@ button {
         padding: 10px;
         font-size: 20px;
         margin-left: -4px;
-        text-transform: capitalize;
+        text-transform: lowercase;
         border: none;
         outline: none;
         color: white;
@@ -164,9 +166,6 @@ button {
     }
 }
 @media screen and (max-width:969px) {
-    body {
-        /* background: linear-gradient(to right,rgb(223, 7, 7), rgb(12, 157, 14));; */
-    }
     .games{
         width: 32%;
         height: 85vh;
@@ -232,7 +231,7 @@ button {
         padding: 10px 0px;
         font-size: 20px;
         margin-left: 0px;
-        text-transform: capitalize;
+        text-transform: lowercase;
         border: none;
         outline: none;
         color: white;
@@ -240,9 +239,6 @@ button {
     }
 }
 @media screen and (max-width:769px) {
-    body {
-        /* background: linear-gradient(to right,rgb(223, 7, 7), rgb(12, 157, 14));; */
-    }
     .how li {
         font-size: 12px;
     }
@@ -305,7 +301,7 @@ button {
         width: 70%;
         font-size: 20px;
         margin-left: 0px;
-        text-transform: capitalize;
+        text-transform: lowercase;
         border: none;
         outline: none;
         color: white;
@@ -314,9 +310,6 @@ button {
 }
 
 @media screen and (max-width:680px) {
-    body {
-        /* background: linear-gradient(to right,rgb(223, 7, 7), rgb(12, 157, 14));; */
-    }
     .container {
         position: relative;
         display: block;
@@ -421,7 +414,7 @@ button {
     .text {
         text-align: center;
         padding: 10px;
-        text-transform: capitalize;
+        text-transform: lowercase;
         font-size: 20px;
         margin-left: 40px;
         border: none;
@@ -432,9 +425,6 @@ button {
 }
 
 @media screen and (max-width:500px) {
-    body {
-        /* background: linear-gradient(to right,rgb(223, 7, 7), rgb(12, 157, 14));; */
-    }
     .container {
         position: relative;
         display: block;
@@ -543,7 +533,7 @@ button {
         text-align: center;
         padding: 10px;
         font-size: 20px;
-        text-transform: capitalize;
+        text-transform: lowercase;
         margin-left: 10px;
         border: none;
         outline: none;
@@ -551,3 +541,4 @@ button {
         background: -webkit-linear-gradient(left,rgba(1, 18, 36, 0.921),rgba(15, 110, 211, 0.921));
     }
 }
+
