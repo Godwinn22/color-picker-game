@@ -3,12 +3,15 @@ let counter = 0;
         var body = document.querySelector("body");
         var myText = document.querySelector(".text");
         var score = document.querySelector(".score");
-        let myColors = ["green", "red","yellow","blue","steelblue"];
+        // body.style.backgroundColor = "Green";
+        let myColors = ["Green","Red","Yellow","Purple","Blue"];
         function input() {
             return (Math.floor(Math.random()*myColors.length))
         }
         btn.addEventListener('click', function change(){
-            if(myText.value === myColors[input()]){
+            myText1 = myText.value;
+            myText2 = myText1.charAt(0).toUpperCase() + myText1.slice(1);
+            if(myText2 === myColors[input()]){
                 alert("You guessed right!!!😍👍✔ \nThanks for Playing😊👏");
                 body.style.backgroundColor = myText.value;
                 myText.value = "";
